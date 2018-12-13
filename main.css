@@ -1,0 +1,100 @@
+
+#mainConainer{
+    width: 50%;
+    min-width: 800px;
+    height: 69%;
+    margin: auto;
+  }
+  header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+  }
+  main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  #dogBreedsMenues{
+      width: 230px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-content: flex-start;
+      align-items: left;
+  }
+  #headDogBreedsContainer{
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    overflow-y: scroll;
+    color: white;
+  }
+  .dogBreedBox {
+    display: block;
+    padding: 10px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid black;
+  }
+  .dogBreedBox:hover {
+    cursor: pointer;
+    background-color: brown;
+  }
+  .dogBreedBox p{
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .dogBreedBox:last-child {
+    border-bottom: none;
+  }
+  .subBreed{
+    margin-top: -8px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  .subBreedIteam{
+    font-size: 0.9em;
+  }
+  li{
+    list-style-type: none;
+  }
+
+  #dogBreedsImgs{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #presentDogBreed{
+    width: 200%;
+    text-align: center;
+  }
+  button{
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    color: black;
+    border-style: none;
+    border: 1px solid black;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: brown;
+  }
+  #insurtDogBreedImgs{
+    margin-top: 20px;
+    width: 100%;
+  }
+  
